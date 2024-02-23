@@ -1,0 +1,96 @@
+
+/* home */
+
+.home {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(226, 230, 231);
+  background-size: cover;
+  background-position: 0;
+}
+
+.home .order{
+  min-height: 100px;
+  background-color: rgba(11, 57, 53, 1);
+  width: auto;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.home .order .details{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.home .order .details img{
+  margin-bottom: 20px;
+}
+
+.home .order .details p {
+  font-family: 'Italiana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #DFDBB6;
+}
+
+.home .order .details .line {
+  margin-top: 20px;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.home .buttons{
+  margin-top: 30px;
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .buttons a {
+  font-family: 'Italiana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #DFDBB6;
+
+  background-color: rgba(11, 57, 53, 1);
+  margin-right: 50px;
+  padding: 30px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.home .buttons form .finish {
+  font-family: 'Italiana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #DFDBB6;
+
+  background-color: rgba(11, 57, 53, 1);
+  margin-right: 50px;
+  padding: 30px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+
+/* /home */

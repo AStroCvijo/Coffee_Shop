@@ -1,0 +1,42 @@
+
+/* home */
+
+.home {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/img/welcome_bg.png);
+  background-size: cover;
+  background-position: 0;
+}
+
+.home .home_main_text {
+  font-family: 'Italiana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 35px;
+
+  color: #0B3935;
+}
+
+.home .home_text {
+  margin-top: 15px;
+
+  font-family: 'Italiana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 18px;
+
+  color: #0B3935;
+}
+
+.home img {
+  margin-left: 50px;
+  width: 220px;
+}
+
+/* /home */

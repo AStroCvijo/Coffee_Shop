@@ -1,0 +1,94 @@
+
+/* home */
+
+.home {
+  min-height: 100vh;
+  height: auto;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(226, 230, 231);
+  background-size: cover;
+  background-position: 0;
+  padding-top: 220px;
+  padding-bottom: 140px;
+}
+
+.home form .invisible{
+  display: none;
+}
+
+.home form .item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+  width: auto;
+}
+
+.home form .item img{
+  display: flex;
+  height: 80px;
+  margin-right: 15px;
+}
+
+.home form .item p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(204, 203, 203, 1);
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  margin-right: 15px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+
+  color: #505050;
+  
+}
+
+.home form .input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.home form .input .inputvalue {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: rgba(204, 203, 203, 1);
+  height: 50px;
+  border-radius: 10px;
+}
+.home form .input .order_button {
+  cursor: pointer;
+  font-family: 'Italiana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #DFDBB6;
+
+  margin-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background-color: rgba(11, 57, 53, 1);
+}
+/* /home */

@@ -1,0 +1,127 @@
+
+/* home */
+
+
+
+.home {
+  min-height: 100vh;
+  height: auto;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(226, 230, 231);
+  background-size: cover;
+  background-position: 0;
+  padding-top: 220px;
+  padding-bottom: 140px;
+}
+
+.home .title {
+  width: 90vw;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+
+
+.home .title .Orders {
+  font-family: 'Italiana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #0B3935;
+
+  margin-right: 50px;
+  padding: 30px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.home .title .Finished {
+font-family: 'Italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: #DFDBB6;
+padding: 30px;
+height: 60px;
+display: flex;
+align-items: center;
+border-radius: 15px;
+background-color: rgba(11, 57, 53, 1);
+}
+
+.home .orders{
+  min-height: 100px;
+  background-color: rgba(11, 57, 53, 1);
+  width: 90vw;
+  padding: 30px;
+  padding-bottom: 0px;
+  border-radius: 15px;
+}
+
+.home .orders .order .order_none {
+  font-family: 'Italiana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #DFDBB6;
+}
+
+
+.home .orders .order_details .order {
+  background-color: rgba(228, 229, 231, 1);
+  display: flex;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.home .orders .order_details .order img {
+  margin-right: 30px;
+}
+
+.home .orders .order_details .order .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.home .orders .order_details .order p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 16px;
+
+  color: #505050;
+}
+
+/* /home */
+
+@media only screen and (max-width:1100px) {
+
+  .home .title {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home .title .Orders {
+    font-size: 3.5vmin;
+  }
+  
+  .home .title .Finished {
+    font-size: 3.5vmin;
+  }
+
+}
